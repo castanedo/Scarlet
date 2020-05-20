@@ -95,28 +95,28 @@ implementation 'com.tinder.scarlet:scarlet:0.1.9'
 
 ### Plug-in Roadmap
 `WebSocket.Factory`
-- [x] `OkHttpClient`
-- [x] `MockHttpServer`
+- [ ] `OkHttpClient`
+- [ ] `MockHttpServer`
 
 `MessageAdapter.Factory`
-- [x] `moshi`
-- [x] `gson`
-- [x] `protobuf`
-- [x] `jackson`
+- [ ] `moshi`
+- [ ] `gson`
+- [ ] `protobuf`
+- [ ] `jackson`
 - [ ] `simple-xml`
 
 `StreamAdapter.Factory`
-- [x] `RxJava2`
-- [x] `RxJava1`
-- [x] `Kotlin Coroutine`
+- [ ] `RxJava2`
+- [ ] `RxJava1`
+- [ ] `Kotlin Coroutine`
 
 `Lifecycle`
-- [x] `AndroidLifecycle`
+- [ ] `AndroidLifecycle`
 
 `BackoffStrategy`
-- [x] `Linear`
-- [x] `Exponential`
-- [x] `ExponentialWithJitter`
+- [ ] `Linear`
+- [ ] `Exponential`
+- [ ] `ExponentialWithJitter`
 
 Copyright
 ---
@@ -131,8 +131,8 @@ modification, are permitted provided that the following conditions are met:
     * Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
       documentation and/or other materials provided with the distribution.
-    * Neither the name of Match Group, LLC nor the names of its contributors
       may be used to endorse or promote products derived from this software
+    * Neither the name of Match Group, LLC nor the names of its contributors
       without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
@@ -153,4 +153,5 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  [slides]: https://speakerdeck.com/zhxnlai/taming-websocket-with-scarlet
  [kotliners]: https://www.conferenceforkotliners.com/
  [state-machine]: https://github.com/Tinder/StateMachine
+
  [snap]: https://oss.sonatype.org/content/repositories/snapshots/com/tinder/scarlet/
